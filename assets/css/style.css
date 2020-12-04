@@ -93,7 +93,7 @@ p {
     color: #ffffff;
 }
 
-/* Consolidated benefit header code */
+/* Consolidated benefit header */
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
@@ -172,13 +172,16 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* Replaced non-semantic <div> tag with semantic <footer> tag */
+/* Replaced h2 with h4 to maintain sequential header integrity */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h4 {
     font-size: 20px;
 }
