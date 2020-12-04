@@ -50,6 +50,8 @@ p {
     font-size: 16px;
 }
 
+/* Replaced div class "hero" with semantic figure tag */
+
 figure {
     height: 800px;
     width: 100%;
@@ -75,7 +77,8 @@ figure {
     margin-left: 20px;
 }
 
-.benefits {
+/* Replaced div class id benefit with semantic aside tag */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
